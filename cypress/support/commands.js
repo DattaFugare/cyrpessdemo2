@@ -27,7 +27,7 @@
 Cypress.Commands.add("LoginAPI",()=> {
 
   cy.request("POST","https://rahulshettyacademy.com/api/ecom/auth/login",
-  {"userEmail":"dattatrayfugare77@gmail.com","userPassword":"dattasujay1"}).
+  {"userEmail":"dattatrayfugare77@gmail.com","userPassword":"#########"}).
   then(function(response)
   {
       expect(response.status).to.eq(200)
