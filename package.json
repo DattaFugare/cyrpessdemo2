@@ -1,0 +1,25 @@
+{
+  "name": "com.ecommerce",
+  "version": "1.0.0",
+  "description": "place order",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "loginbypass": "npx cypress run --spec cypress/integration/loginByPass.js"
+  },
+  "keywords": [
+    "cypress",
+    "pageObjectModel"
+  ],
+  "author": "dattatrayfugare",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.11.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "neat-csv": "5.1.0"
+  },
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "exceljs": "^4.4.0"
+  }
+}
